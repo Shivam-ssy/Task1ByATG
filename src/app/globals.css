@@ -8,6 +8,10 @@
     align-items: center;
     position: relative;
 }
+.logotext{
+    font-size: 1em;
+}
+
 .HomePart2{
     grid-row: span 2;
 }
@@ -59,6 +63,39 @@
 .footer-part2{
     background-color: #C8FDFF;
 }
+@media screen and (max-width:900px){
+    .Homepage{
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+        padding:0 2em;
+    }
+    .homeImage{
+        width:100%
+    }
+    .HomePart2{
+        grid-row:auto;
+    }
+    .page2{
+        grid-template-columns: repeat(1,1fr);
+        gap: 1em;
+    }
+    .page3{
+        height: auto;
+        padding: 1em;
+    }
+    .page4{
+        height: auto;
+        padding: 2em;
+    }
+    .page5{
+        padding: 2em;
+        height: auto;
+    }
+    .footer{
+        padding:2em;
+        gap: 0.8em;
+    }
+}
 @media screen and (max-width:600px) {
     .Homepage{
         grid-template-columns: repeat(1,1fr);
@@ -73,11 +110,20 @@
     }
     .page2{
         grid-template-columns: repeat(1,1fr);
-        gap: 2em;
+        gap: 1em;
+        padding: 1em;
     }
-    .page3,.page4,.page5{
+    .page3{
         height: auto;
+        padding: 1em;
+    }
+    .page4{
+        height: auto;
+        padding: 1em;
+    }
+    .page5{
         padding: 2em;
+        height: auto;
     }
     .footer{
         grid-template-columns: repeat(1,1fr);

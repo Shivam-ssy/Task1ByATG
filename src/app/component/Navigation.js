@@ -16,7 +16,7 @@ function Navigation() {
             <a className="navbar-brand" href="#">
               <Logo />
             </a>
-            <div className="d-flex w align-items-center gap-2 flex-row-reverse">
+            <div className="d-flex logotext w align-items-center gap-2 flex-row-reverse">
               <button
                 className="navbar-toggler"
                 type="button"
@@ -30,7 +30,7 @@ function Navigation() {
               </button>
 
              
-              <div className="d-flex gap-3 align-items-center">
+              <div className="d-flex  gap-3 align-items-center">
                 <div className="d-md-flex d-none gap-1 align-items-center">
                   <RiCompassFill color="#8064A2" />
                   Exolore
@@ -70,7 +70,7 @@ function Navigation() {
                   <RiBookmarkFill color="#8064A2" />
                 </div>
                 <div className="d-flex">
-                  <RiNotification4Fill color="#8064A2" />
+                  <RiNotification4Fill color="#8064A2" className="logotext" />
                 </div>
                 <div className="d-md-flex d-none">
                   <RiShoppingCart2Fill color="#8064A2" />
@@ -89,7 +89,7 @@ function Navigation() {
                     placeholder="Search items"
                   />
                   <span
-                    className="input-group-text bg-purple "
+                    className="input-group-text bg-purple  "
                     id="Search"
                   >
                     {" "}
