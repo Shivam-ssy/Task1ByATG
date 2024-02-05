@@ -5,7 +5,7 @@ function HomePage(){
     return(
         <>
             <div className="Homepage bg-lighter">
-              <div className="d-flex align-items-start gap-3  flex-column" style={{height:"100%",paddingTop:"8em"}}>
+              <div className="d-flex align-items-start gap-3 HomePart1 flex-column" style={{height:"100%",paddingTop:"8em"}}>
                 <h3>Exolore your <span className="text-blue">hobby</span> or <span className="text-purple">passion</span></h3>
                 <div>
                     Sign-in to interact with a community of fellow hobbyists and an echo-system of expert, teachers, <br/>
