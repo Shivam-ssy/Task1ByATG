@@ -25,6 +25,9 @@ function Signup() {
         </div>
         <div className="d-flex justify-content-center">or connect with</div>
         <div>
+        <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Name" />
+          </div>
           <div class="mb-3">
             <input type="email" class="form-control" placeholder="Email" />
           </div>
@@ -35,7 +38,7 @@ function Signup() {
               placeholder="Password"
             />
           </div>
-          <div className="d-flex justify-content-between gap-5 align-items-center ">
+          {/* <div className="d-flex justify-content-between gap-5 align-items-center ">
 
           <div class="form-check">
             <input
@@ -49,7 +52,7 @@ function Signup() {
             </label>
           </div>
           <div className="d-flex"><img src="Vector.svg"/>Forget Password</div>
-          </div>
+          </div> */}
           <div
           class="mt-3 d-flex justify-content-center rounded border border-purple px-3">
           <button type="button" className="btn">

@@ -1,6 +1,7 @@
 import React from "react";
 import CustomLayout from "./CustomLayout";
-import Signup from "./Signup";
+import Signup from "./Register/SignUp/Signup";
+import SignIn from "./Register/SignIn/SignIn";
 function HomePage(){
     return(
         <>
@@ -19,9 +20,9 @@ function HomePage(){
                 </div>
               </div>
               <div className="HomePart2">
-                <CustomLayout>
-                  <Signup/>
-                </CustomLayout>
+              <CustomLayout>
+                <SignIn/>
+              </CustomLayout>
               </div>
               <div className="mt-3 mt-md-0">
              <img src="Group27.svg" className=" homeImage " />
